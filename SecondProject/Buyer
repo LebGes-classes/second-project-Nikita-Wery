@@ -1,0 +1,28 @@
+public class Buyer {
+    private String nameOfBuyer;
+    private String cityOfBuyer;
+    private int userMoney;
+    private int userArea;
+
+    static StorageMap storageMap = new StorageMap();
+
+    //private 
+
+    public String Buy(int idOfProduct) {
+        Product desiredProduct = Product[].get(id);
+        if (userMoney < desiredProduct) {
+            //вывод ошибки 
+            System.out.println("Пожалуйста, пополните баланс");
+        }
+
+        for (Storage storage : storageMap) {
+            //ищем ближайший город и проверяем наличие товара в нём
+            if (storage.getLocation(userArea)) {
+                if (storage.getLocation)
+
+            }
+        }
+    }
+
+
+}
